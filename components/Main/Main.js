@@ -1,7 +1,10 @@
-import styles from './Main.module.css'
+import * as React from 'react';
+import Button from '@mui/material/Button';
 
-const Main = () => {
-    return (<main className={styles.main}>Coming soon ...</main>)
+export default function MyApp() {
+  return (
+    <div>
+      <Button variant="contained">Hello World</Button>
+    </div>
+  );
 }
-
-export default Main;
