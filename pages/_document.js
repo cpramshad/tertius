@@ -13,20 +13,19 @@ export default function Document() {
           strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-4NWF3ZVNCF"
         />
-
-        <Script id="gtm-test" strategy="lazyOnload">
-          {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4NWF3ZVNCF', {
-        page_path: window.location.pathname,
-        optimize_id: OPT-MKZQWLV}
-        });
-    `}
-        </Script>
       </Head>
       <body>
+        <script id="gtm-test" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4NWF3ZVNCF', {
+    page_path: window.location.pathname,
+    optimize_id: OPT-MKZQWLV}
+    });
+`}
+        </script>
         <Main />
         <NextScript />
       </body>
