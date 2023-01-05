@@ -17,6 +17,7 @@ export default function Document() {
         gtag('js', new Date());
         gtag('config', 'G-4NWF3ZVNCF', {
         page_path: window.location.pathname,
+        optimize_id: OPT-MKZQWLV}
         });
     `}
         </Script>
