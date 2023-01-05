@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <Script src="https://www.googleoptimize.com/optimize.js?id=OPT-MKZQWLV"></Script>
         <Script
           strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-4NWF3ZVNCF"
